@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><title>The Empanada Bakery Contact</title>
+<link href="empanada.css" rel="stylesheet">
+<meta charset="utf-8">
+<!--REQUIRED: metadata added 11/8/2023-->
+<meta name="description" content="La Empanada Bakery Contact Page. Contact us with any question about our homemade products">
+<meta name="keywords" content="contact, phone, email">
+<meta name="author" content="Eunice Marquez">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+<div id="wrapper">
+<!--REQUIRED: list added 11/8/2023-->
+<nav>
+	<ul>
+	<!--REQUIRED: list added 11/8/2023-->
+	  <li><a href="index.html">Home </a></li>
+	  <li><a href="about.html">About </a></li>
+	  <li><a href="products.html">Products </a></li>
+	  <li><a href="contact.html">Contact </a></li>
+	</ul>
+</nav>
+<!--REQUIRED: Image 1 logo added 11/28/2023-->
+<div id="logo">
+</div>
+
+
+<main>
+<h1>Contact Form</h1>
+<p> Required fields are marked with asterisk *</p>
+
+<!--REQUIRED: form added 11/28/2023-->
+<form method="post" action="https://webdevbasics.net/scripts/yoga.php">
+  <label for="myName">* Name</label>
+  <input type="text" name="Name" id="myName">
+  <label for="myEmail">* E-mail</label>
+  <input type="text" name="E-mail" id="myEmail">
+  <label for="product">* Products</label>
+  <input type="text" name="product" id="product">
+    <label for="Comments">* Comments</label>
+  <textarea name="Comments" id="Comments" rows="2" cols="20"></textarea>
+  <label for="favhomemadegood">* Options</label>
+  <select size="1" name="favhomemadegood" id="favhomemadegood">
+  <option> Select your favorite homemade good</option>
+  <option value="Empanadas">Empanada </option>
+  <option value="Cookies">Cookies </option>
+  <option value="Tortillas">Tortillas</option>
+  <option value="Weddig cookies">Wedding cookies</option>
+  </select>
+   <!--REQUIRED: submit added 11/28/2023-->
+  <input type="submit" value="Send Now">
+  
+</form>
+</main>
+<footer>	
+Copyright &copy;
+  <a href="mailto:eunice@marquez.com">Eunice@Marquez.com</a>	
+</footer>
+</div>
+</body>
+</html>
